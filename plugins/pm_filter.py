@@ -30,7 +30,7 @@ BUTTONS = {}
 SPELL_CHECK = {}
 
 
-@Client.on_message(filters.group & filters.text & ~filters.edited & filters.incoming)
+@Client.on_message(filters.text & ~filters.edited & filters.incoming)
 async def give_filter(client, message):
     k = await manual_filters(client, message)
     if k == False:
@@ -97,7 +97,7 @@ async def next_page(bot, query):
     # How to Download button
 
     btn.append(
-    [InlineKeyboardButton("HOW TO DOWNLOAD 🤔", url="https://t.me/srilinks4k/47"),]
+    [InlineKeyboardButton("HOW TO DOWNLOAD 🤔", url="https://t.me/TAMIL_FLIMS_HD/12"),]
 )
 
     if n_offset == 0:
@@ -426,12 +426,12 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('➕ Add Me To Your Groups ➕', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
         ], [
             InlineKeyboardButton('🔍 Search', switch_inline_query_current_chat=''),
-            InlineKeyboardButton('🤖 Updates', url='https://t.me/srilinks4k')
+            InlineKeyboardButton('🤖 Updates', url='https://t.me/+lddRK5Mg-e02Y2I9')
         ], [
             InlineKeyboardButton('ℹ️ Help', callback_data='help'),
             InlineKeyboardButton('😊 About', callback_data='about')
             ],[
-            InlineKeyboardButton('🤖 Updates', url='https://t.me/TAMIL_MOVIES_UPDATE_ms')
+            InlineKeyboardButton('🤖 Updates', url='https://t.me/TAMIL_FLIMS_HD')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
@@ -684,7 +684,7 @@ async def auto_filter(client, msg, spoll=False):
         ]
 
     btn.append(
-    [InlineKeyboardButton("How to download 🤔", url="https://t.me/srilinks4k/47"),]
+    [InlineKeyboardButton("How to download 🤔", url="https://t.me/TAMIL_FLIMS_HD/12"),]
 )
 
     if offset != "":
