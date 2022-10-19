@@ -22,7 +22,7 @@ class script(object):
 ║┣⪼ 𝚂𝚄𝙿𝙿𝙾𝚁𝚃 𝙼𝚈 𝙲𝙷𝙰𝙽𝙽𝙴𝙻
 ║┣
 ║┣    <a href=https://t.me/TAMIL_FLIMS_HD>𝙵𝙻𝙸𝙼𝚂 𝙷𝙳 𝙾𝙵𝙵𝙸𝙲𝙸𝙰𝙻</a>
-║┣     💞🤗💞
+║┣      💞🤗💞
 ║┣⪼ 𝐃𝐄𝐕𝐒:⪼ 𝐃𝐑𝐀𝐆𝐎𝐍
 ║╰━━━━━━━━━━━━━━━➣
 ╚══════════════════❍⊱❁"""
@@ -31,7 +31,7 @@ class script(object):
 - Filter is the feature were users can set automated replies for a particular keyword and DRAGON will respond whenever a keyword is found the message
 
 <b>NOTE:</b>
-1. THOR should have admin privillage.
+1. DRAGON should have admin privillage.
 2. only admins can add filters in a chat.
 3. alert buttons have a limit of 64 characters.
 
@@ -46,7 +46,7 @@ class script(object):
 
 <b>NOTE:</b>
 1. Telegram will not allows you to send buttons without any content, so content is mandatory.
-2. THOR supports buttons with any telegram media type.
+2. DRAGON supports buttons with any telegram media type.
 3. Buttons should be properly parsed as markdown format
 
 <b>URL buttons:</b>
