@@ -19,7 +19,7 @@ BOT_TOKEN = environ['BOT_TOKEN']
 # Bot settings
 CACHE_TIME = int(environ.get('CACHE_TIME', 300))
 USE_CAPTION_FILTER = bool(environ.get('USE_CAPTION_FILTER', False))
-PICS = (environ.get('PICS', 'https://telegra.ph/file/be3dc6a6bb3e674ec887d.jpg https://telegra.ph/file/662581f31adbd8c848e01.jpg https://telegra.ph/file/998f412a6ce7db3f552c5.jpg https://telegra.ph/file/425370a656b554239fb16.jpg https://telegra.ph/file/a169d6419d71f8e9edf96.jpg https://telegra.ph/file/ad7b96b0ac9d15c008312.jpg https://telegra.ph/file/5ffcd828c70665946a0e2.jpg https://telegra.ph/file/3170fd0cb0da423e7c24b.jpg https://telegra.ph/file/b7a8839b1ff37fe9ac3de.jpg')).split()
+PICS = (environ.get('PICS', 'https://telegra.ph/file/8d9ed85f8d945aa1281c3.jpg https://telegra.ph/file/f90e1dfd0e4513c1c7f48.jpg https://telegra.ph/file/57823ec95ec66da801968.jpg https://telegra.ph/file/56779c6d3fe8e2dfd55a0.jpg https://telegra.ph/file/3bb333e866154eb3aeea4.jpg')).split()
 
 # Admins, Channels & Users
 ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '').split()]
@@ -45,7 +45,7 @@ IMDB = is_enabled((environ.get('IMDB', "True")), True)
 SINGLE_BUTTON = is_enabled((environ.get('SINGLE_BUTTON', "False")), False)
 CUSTOM_FILE_CAPTION = environ.get("CUSTOM_FILE_CAPTION", None)
 BATCH_FILE_CAPTION = environ.get("BATCH_FILE_CAPTION", CUSTOM_FILE_CAPTION)
-IMDB_TEMPLATE = environ.get("IMDB_TEMPLATE", "<b>Query: {query}</b> \n‌‌‌‌IMDb Data:\n\n🏷 Title: <a href={url}>{title}</a>\n🎭 Genres: {genres}\n📆 Year: <a href={url}/releaseinfo>{year}</a>\n🌟 Rating: <a href={url}/ratings>{rating}</a> / 10")
+IMDB_TEMPLATE = environ.get("IMDB_TEMPLATE", "<b>Query: {query} \n‌‌‌‌IMDb Data:\n\n🏷 Title: <a href={url}>{title}</a>\n🎭 Genres: {genres}\n📆 Year: <a href={url}/releaseinfo>{year}</a>\n🌟 Rating: <a href={url}/ratings>{rating}</a> / 10</b>")
 LONG_IMDB_DESCRIPTION = is_enabled(environ.get("LONG_IMDB_DESCRIPTION", "False"), False)
 SPELL_CHECK_REPLY = is_enabled(environ.get("SPELL_CHECK_REPLY", "True"), True)
 MAX_LIST_ELM = environ.get("MAX_LIST_ELM", None)
