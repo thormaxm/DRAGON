@@ -49,6 +49,8 @@ async def start(client, message):
             ],[
             InlineKeyboardButton('ℹ️ Help', callback_data='help'),
             InlineKeyboardButton('😊 About', callback_data='about')
+            ],[
+            InlineKeyboardButton('🤖 Updates', url='https://t.me/TAMIL_MOVIES_UPDATE_ms')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_photo(
@@ -95,6 +97,8 @@ async def start(client, message):
             ],[
             InlineKeyboardButton('ℹ️ Help', callback_data='help'),
             InlineKeyboardButton('😊 About', callback_data='about')
+            ],[
+            InlineKeyboardButton('🤖 Updates', url='https://t.me/TAMIL_MOVIES_UPDATE_ms')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_photo(
