@@ -425,7 +425,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         buttons = [[
             InlineKeyboardButton('ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴩꜱ', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
         ], [
-            InlineKeyboardButton('ᴀʙᴏᴜᴛ', switch_inline_query_current_chat=''),
+            InlineKeyboardButton('ꜱᴇᴀʀᴄʜ', switch_inline_query_current_chat=''),
             InlineKeyboardButton('ᴜᴩᴅᴀᴛᴇꜱ', url='https://t.me/+lddRK5Mg-e02Y2I9')
         ], [
             InlineKeyboardButton('ʜᴇʟᴩ', callback_data='help'),
