@@ -98,7 +98,7 @@
         },
         "USE_HEROKU": {
         "description": "Do not change this. Else bot will crash!",
-        "value": "False"
+        "value": "True"
         },
         "DELETE_TIME": {
             "description": "Delete your bot messages for resist copyright issues",
