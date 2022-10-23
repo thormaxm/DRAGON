@@ -97,7 +97,7 @@ async def next_page(bot, query):
     # How to Download button
 
     btn.append(
-    [InlineKeyboardButton("⚡ 𝐇𝐎𝐖 𝐓𝐎 𝐃𝐎𝐖𝐍𝐋𝐎𝐀𝐃 ⚡", url="https://t.me/TAMIL_FLIMS_HD/12"),]
+    [InlineKeyboardButton("⚡ 𝐇𝐎𝐖 𝐓𝐎 𝐃𝐎𝐖𝐍𝐋𝐎𝐀𝐃 ⚡", url="https://t.me/TAMIL_FLIMS_HD/40"),]
 )
 
     if n_offset == 0:
@@ -662,7 +662,7 @@ async def auto_filter(client, msg, spoll=False):
         btn = [
             [
                 InlineKeyboardButton(
-                    text=f"[{get_size(file.file_size)}] {file.file_name}", 
+                    text=f"◈[{get_size(file.file_size)}]➜ {file.file_name}", 
                     url=await get_shortlink(f"https://t.me/{temp.U_NAME}?start=pre_{file.file_id}")
                 ),
             ]
@@ -676,7 +676,7 @@ async def auto_filter(client, msg, spoll=False):
                     url=await get_shortlink(f"https://t.me/{temp.U_NAME}?start=pre_{file.file_id}")
                 ),
                 InlineKeyboardButton(
-                    text=f"{get_size(file.file_size)}",
+                    text=f"◈[{get_size(file.file_size)}]➜",
                     callback_data=f'{pre}_#{file.file_id}',
                 ),
             ]
@@ -684,7 +684,7 @@ async def auto_filter(client, msg, spoll=False):
         ]
 
     btn.append(
-    [InlineKeyboardButton("⚡ 𝐇𝐎𝐖 𝐓𝐎 𝐃𝐎𝐖𝐍𝐋𝐎𝐀𝐃 ⚡", url="https://t.me/TAMIL_FLIMS_HD/12"),]
+    [InlineKeyboardButton("⚡ 𝐇𝐎𝐖 𝐓𝐎 𝐃𝐎𝐖𝐍𝐋𝐎𝐀𝐃 ⚡", url="https://t.me/TAMIL_FLIMS_HD/40"),]
 )
 
     if offset != "":
