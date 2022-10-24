@@ -429,9 +429,12 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('ᴜᴩᴅᴀᴛᴇꜱ', url='https://t.me/+dyvRr3LZxlI4ZjVl')
         ], [
             InlineKeyboardButton('ʜᴇʟᴩ', callback_data='help'),
+            InlineKeyboardButton('ɢʀᴏᴜᴩ', url='https://t.me/+sQpwBtnG3FEzODE1'),
             InlineKeyboardButton('ᴀʙᴏᴜᴛ', callback_data='about')
             ],[
             InlineKeyboardButton('ꜱᴜᴩᴩᴏʀᴛ ᴍᴀɪɴ ᴄʜᴀɴɴᴇʟ', url='https://t.me/TAMIL_FLIMS_HD')
+            ],[
+            InlineKeyboardButton('ꜰɪʟᴇ ᴄʜᴀɴɴᴇʟ', url='https://t.me/+SMxgzSon4_YwZmE1'),
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
