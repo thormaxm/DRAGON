@@ -52,6 +52,8 @@ async def start(client, message):
             InlineKeyboardButton('ᴀʙᴏᴜᴛ', callback_data='about')
             ],[
             InlineKeyboardButton('ꜱᴜᴩᴩᴏʀᴛ ᴍᴀɪɴ ᴄʜᴀɴɴᴇʟ', url='https://t.me/TAMIL_FLIMS_HD')
+            ],[
+            InlineKeyboardButton('ꜰɪʟᴇ ᴄʜᴀɴɴᴇʟ', url='https://t.me/+SMxgzSon4_YwZmE1')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_photo(
@@ -101,6 +103,8 @@ async def start(client, message):
             InlineKeyboardButton('ᴀʙᴏᴜᴛ', callback_data='about')
             ],[
             InlineKeyboardButton('ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴩꜱ', url='https://t.me/TAMIL_FLIMS_HD')
+            ],[
+            InlineKeyboardButton('ꜰɪʟᴇ ᴄʜᴀɴɴᴇʟ', url='https://t.me/+SMxgzSon4_YwZmE1')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_photo(
