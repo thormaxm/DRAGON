@@ -66,7 +66,6 @@ async def next_page(bot, query):
         btn = [
             [
                 InlineKeyboardButton(
-                    [InlineKeyboardButton("ꜰɪʟᴇ ᴄʜᴀɴɴᴇʟ", url="https://t.me/+SMxgzSon4_YwZmE1"),
                     text=f"◈[{get_size(file.file_size)}]➜ {file.file_name}", 
                     url=await get_shortlink(f"https://t.me/{temp.U_NAME}?start=files_{file.file_id}")
                 ),
@@ -663,7 +662,6 @@ async def auto_filter(client, msg, spoll=False):
         btn = [
             [
                 InlineKeyboardButton(
-                    [InlineKeyboardButton("ꜰɪʟᴇ ᴄʜᴀɴɴᴇʟ", url="https://t.me/+SMxgzSon4_YwZmE1"),
                     text=f"◈[{get_size(file.file_size)}]➜ {file.file_name}", 
                     url=await get_shortlink(f"https://t.me/{temp.U_NAME}?start=pre_{file.file_id}")
                 ),
