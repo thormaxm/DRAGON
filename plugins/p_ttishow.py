@@ -53,7 +53,7 @@ async def save_group(bot, message):
                         await (temp.MELCOW['welcome']).delete()
                     except:
                         pass
-                temp.MELCOW['welcome'] = await message.reply(f"<b> 👋 Hey , {u.mention}, Welcome to {message.chat.title}</b> \n\n𝗥𝗲𝗾𝘂𝗲𝘀𝘁𝘀 𝗙𝗼𝗿𝗺𝗮𝘁𝘀\n\n• viruman \n• GULU gulu \n•👇.  .👇 \n• SUPPORT MAIN CHANNEL\n• <a href='https://t.me/rithesh_rkrm_17'>𝖳𝗁𝗂𝗌 𝖯𝖾𝗋𝗌𝗈𝗇</a>\n\n‼️𝗗𝗼𝗻𝘁 𝗮𝗱𝗱 𝘄𝗼𝗿𝗱𝘀 & 𝘀𝘆𝗺𝗯𝗼𝗹𝘀 𝗹𝗶𝗸𝗲 , . -  send link movie series 𝗲𝘁𝗰‼️")
+                temp.MELCOW['welcome'] = await message.reply(f"<b> 👋 𝙷𝙴𝚈 , {u.mention}, 𝚆𝙴𝙻𝙲𝙾𝙼𝙴 𝚃𝙾 {message.chat.title}</b> \n\n𝗥𝗲𝗾𝘂𝗲𝘀𝘁𝘀 𝗙𝗼𝗿𝗺𝗮𝘁𝘀\n\n• 𝚅𝙸𝚁𝚄𝙼𝙰𝙽 \n• 𝙶𝚄𝙻𝚄 𝙶𝚄𝙻𝚄 \n•ﮩ٨ـﮩﮩ٨ـ♡ﮩ٨ـﮩﮩ٨ـ\n• ⊹٭𝚂𝚄𝙿𝙿𝙾𝚁𝚃 𝙼𝙰𝙸𝙽 𝙲𝙷𝙰𝙽𝙽𝙴𝙻٭⊹ \n• <a href='https://t.me/TAMIL_FLIMS_HD'>𝚃𝙰𝙼𝙸𝙻 𝙵𝙻𝙸𝙼𝚂 𝙷𝙳</a>\n\n")
 
 
 @Client.on_message(filters.command('leave') & filters.user(ADMINS))
