@@ -102,7 +102,7 @@ async def next_page(bot, query):
     [InlineKeyboardButton("ɢʀᴏᴜᴩ", url="https://t.me/+sQpwBtnG3FEzODE1"),
     [InlineKeyboardButton("ᴍᴀɪɴ ᴄʜᴀɴɴᴇʟ", url="https://t.me/TAMIL_FLIMS_HD"),
     [InlineKeyboardButton("ꜰɪʟᴇ ᴄʜᴀɴɴᴇʟ", url="https://t.me/+SMxgzSon4_YwZmE1"),]
-)
+
 
     if n_offset == 0:
         btn.append(
