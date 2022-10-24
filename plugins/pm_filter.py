@@ -104,7 +104,7 @@ async def next_page(bot, query):
     [InlineKeyboardButton("ꜰɪʟᴇ ᴄʜᴀɴɴᴇʟ", url="https://t.me/+SMxgzSon4_YwZmE1"),]
 
 
-    if n_offset == 0:
+    if n_offset == 0
         btn.append(
             [InlineKeyboardButton("⏪ ʙᴀᴄᴋ", callback_data=f"next_{req}_{key}_{off_set}"),
              InlineKeyboardButton(f"📃 ᴩᴀɢᴇꜱ {round(int(offset) / 10) + 1} / {round(total / 10)}",
