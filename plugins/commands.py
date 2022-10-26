@@ -51,11 +51,11 @@ async def start(client, message):
             InlineKeyboardButton('ɢʀᴏᴜᴩ', url='https://t.me/+sQpwBtnG3FEzODE1'),
             InlineKeyboardButton('ᴀʙᴏᴜᴛ', callback_data='about')
             ],[
-            InlineKeyboardButton('ꜱᴜᴩᴩᴏʀᴛ ᴍᴀɪɴ ᴄʜᴀɴɴᴇʟ', url='https://t.me/TAMIL_FLIMS_HD')
+            InlineKeyboardButton('✮ ᴍᴀɪɴ ᴄʜᴀɴɴᴇʟ ✮', url='https://t.me/TAMIL_FLIMS_HD')
             ],[
-            InlineKeyboardButton('ꜰɪʟᴇ ᴄʜᴀɴɴᴇʟ 𝟏', url='https://t.me/+SMxgzSon4_YwZmE1'),
-            InlineKeyboardButton('ꜰɪʟᴇ ᴄʜᴀɴɴᴇʟ 𝟐', url='https://t.me/+VyuE_q8JC9UzZTll'),
-            InlineKeyboardButton('ꜰɪʟᴇ ᴄʜᴀɴɴᴇʟ 𝟑', url='https://t.me/+TJzbQrEhZBg3ZGRl')
+            InlineKeyboardButton('ᴄʜᴀɴɴᴇʟ 𝟷', url='https://t.me/+SMxgzSon4_YwZmE1'),
+            InlineKeyboardButton('ᴄʜᴀɴɴᴇʟ 𝟸', url='https://t.me/+VyuE_q8JC9UzZTll'),
+            InlineKeyboardButton('ᴄʜᴀɴɴᴇʟ 𝟹', url='https://t.me/+TJzbQrEhZBg3ZGRl')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_photo(
@@ -104,11 +104,11 @@ async def start(client, message):
             InlineKeyboardButton('ɢʀᴏᴜᴩ', url='https://t.me/+sQpwBtnG3FEzODE1'),
             InlineKeyboardButton('ᴀʙᴏᴜᴛ', callback_data='about')
             ],[
-            InlineKeyboardButton('ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴩꜱ', url='https://t.me/TAMIL_FLIMS_HD')
+            InlineKeyboardButton('✮ᴍᴀɪɴ ᴄʜᴀɴɴᴇʟ ✮', url='https://t.me/TAMIL_FLIMS_HD')
             ],[
-            InlineKeyboardButton('ꜰɪʟᴇ ᴄʜᴀɴɴᴇʟ 𝟏', url='https://t.me/+SMxgzSon4_YwZmE1'),
-            InlineKeyboardButton('ꜰɪʟᴇ ᴄʜᴀɴɴᴇʟ 𝟐', url='https://t.me/+VyuE_q8JC9UzZTll'),
-            InlineKeyboardButton('ꜰɪʟᴇ ᴄʜᴀɴɴᴇʟ 𝟑', url='https://t.me/+TJzbQrEhZBg3ZGRl')
+            InlineKeyboardButton('ᴄʜᴀɴɴᴇʟ 𝟷', url='https://t.me/+SMxgzSon4_YwZmE1'),
+            InlineKeyboardButton('ᴄʜᴀɴɴᴇʟ 𝟸', url='https://t.me/+VyuE_q8JC9UzZTll'),
+            InlineKeyboardButton('ᴄʜᴀɴɴᴇʟ 𝟹', url='https://t.me/+TJzbQrEhZBg3ZGRl')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_photo(
