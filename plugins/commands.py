@@ -53,7 +53,9 @@ async def start(client, message):
             ],[
             InlineKeyboardButton('ꜱᴜᴩᴩᴏʀᴛ ᴍᴀɪɴ ᴄʜᴀɴɴᴇʟ', url='https://t.me/TAMIL_FLIMS_HD')
             ],[
-            InlineKeyboardButton('ꜰɪʟᴇ ᴄʜᴀɴɴᴇʟ', url='https://t.me/+SMxgzSon4_YwZmE1')
+            InlineKeyboardButton('ꜰɪʟᴇ ᴄʜᴀɴɴᴇʟ 𝟏', url='https://t.me/+SMxgzSon4_YwZmE1'),
+            InlineKeyboardButton('ꜰɪʟᴇ ᴄʜᴀɴɴᴇʟ 𝟐', url='https://t.me/+VyuE_q8JC9UzZTll'),
+            InlineKeyboardButton('ꜰɪʟᴇ ᴄʜᴀɴɴᴇʟ 𝟑', url='https://t.me/+TJzbQrEhZBg3ZGRl')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_photo(
@@ -104,7 +106,9 @@ async def start(client, message):
             ],[
             InlineKeyboardButton('ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴩꜱ', url='https://t.me/TAMIL_FLIMS_HD')
             ],[
-            InlineKeyboardButton('ꜰɪʟᴇ ᴄʜᴀɴɴᴇʟ', url='https://t.me/+SMxgzSon4_YwZmE1')
+            InlineKeyboardButton('ꜰɪʟᴇ ᴄʜᴀɴɴᴇʟ 𝟏', url='https://t.me/+SMxgzSon4_YwZmE1'),
+            InlineKeyboardButton('ꜰɪʟᴇ ᴄʜᴀɴɴᴇʟ 𝟐', url='https://t.me/+VyuE_q8JC9UzZTll'),
+            InlineKeyboardButton('ꜰɪʟᴇ ᴄʜᴀɴɴᴇʟ 𝟑', url='https://t.me/+TJzbQrEhZBg3ZGRl')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_photo(
