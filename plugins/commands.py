@@ -53,7 +53,7 @@ async def start(client, message):
             ],[
             InlineKeyboardButton('✮ ᴍᴀɪɴ ᴄʜᴀɴɴᴇʟ ✮', url='https://t.me/TAMIL_FLIMS_HD')
             ],[
-            InlineKeyboardButton('ᴄʜᴀɴɴᴇʟ 𝟷', url='https://t.me/+SMxgzSon4_YwZmE1'),
+            InlineKeyboardButton('ᴄʜᴀɴɴᴇʟ 𝟷', url='https://t.me/+lp5mOR6wSMIyMzY1'),
             InlineKeyboardButton('ᴄʜᴀɴɴᴇʟ 𝟸', url='https://t.me/+VyuE_q8JC9UzZTll'),
             InlineKeyboardButton('ᴄʜᴀɴɴᴇʟ 𝟹', url='https://t.me/+TJzbQrEhZBg3ZGRl')
         ]]
@@ -106,7 +106,7 @@ async def start(client, message):
             ],[
             InlineKeyboardButton('✮ᴍᴀɪɴ ᴄʜᴀɴɴᴇʟ ✮', url='https://t.me/TAMIL_FLIMS_HD')
             ],[
-            InlineKeyboardButton('ᴄʜᴀɴɴᴇʟ 𝟷', url='https://t.me/+SMxgzSon4_YwZmE1'),
+            InlineKeyboardButton('ᴄʜᴀɴɴᴇʟ 𝟷', url='https://t.me/+lp5mOR6wSMIyMzY1'),
             InlineKeyboardButton('ᴄʜᴀɴɴᴇʟ 𝟸', url='https://t.me/+VyuE_q8JC9UzZTll'),
             InlineKeyboardButton('ᴄʜᴀɴɴᴇʟ 𝟹', url='https://t.me/+TJzbQrEhZBg3ZGRl')
         ]]
