@@ -90,7 +90,7 @@ async def next_page(bot, query):
         [
             InlineKeyboardButton("ɢʀᴏᴜᴩ", url="https://t.me/+sQpwBtnG3FEzODE1"),
             InlineKeyboardButton("ᴍᴀɪɴ ᴄʜᴀɴɴᴇʟ", url="https://t.me/TAMIL_FLIMS_HD"),
-            InlineKeyboardButton("ꜰɪʟᴇ ᴄʜᴀɴɴᴇʟ", url="https://t.me/+SMxgzSon4_YwZmE1")
+            InlineKeyboardButton("ꜰɪʟᴇ ᴄʜᴀɴɴᴇʟ", url="https://t.me/+lp5mOR6wSMIyMzY1")
         ]
     )
 
@@ -441,7 +441,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             ],[
             InlineKeyboardButton('✮ ᴍᴀɪɴ ᴄʜᴀɴɴᴇʟ ✮', url='https://t.me/TAMIL_FLIMS_HD')
             ],[
-            InlineKeyboardButton('ᴄʜᴀɴɴᴇʟ 𝟷', url='https://t.me/+SMxgzSon4_YwZmE1'),
+            InlineKeyboardButton('ᴄʜᴀɴɴᴇʟ 𝟷', url='https://t.me/+lp5mOR6wSMIyMzY1'),
             InlineKeyboardButton('ᴄʜᴀɴɴᴇʟ 𝟸', url='https://t.me/+VyuE_q8JC9UzZTll'),
             InlineKeyboardButton('ᴄʜᴀɴɴᴇʟ 𝟹', url='https://t.me/+TJzbQrEhZBg3ZGRl')
         ]]
@@ -698,7 +698,7 @@ async def auto_filter(client, msg, spoll=False):
         [
             InlineKeyboardButton("ɢʀᴏᴜᴩ", url="https://t.me/+sQpwBtnG3FEzODE1"),
             InlineKeyboardButton("ᴍᴀɪɴ ᴄʜᴀɴɴᴇʟ", url="https://t.me/TAMIL_FLIMS_HD"),
-            InlineKeyboardButton("ꜰɪʟᴇ ᴄʜᴀɴɴᴇʟ", url="https://t.me/+SMxgzSon4_YwZmE1")
+            InlineKeyboardButton("ꜰɪʟᴇ ᴄʜᴀɴɴᴇʟ", url="https://t.me/+lp5mOR6wSMIyMzY1")
         ]
     )
 
